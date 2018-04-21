@@ -1,0 +1,105 @@
+# Site settings
+title: LYQ
+SEOTitle: 林逸群的博客 | LYQ Blog
+header-img: img/home-bg.jpg
+email: 15975224183@163.com
+description: "喜欢和好奇计算机产生的一切画面"
+keyword: ""
+url: "WilsonUnity.github.io"              # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+timezone: CN
+
+plugins: [jekyll-paginate]
+
+
+# SNS settings
+RSS: false
+
+zhihu_username:     lin-yi-qun-20-12
+github_username:    WilsonUnity
+douban_username:    177545387
+weibo_username:     6528616036
+#twitter_username:  candycat1992
+#facebook_username:  huxpro
+
+
+
+# Build settings
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# Disqus settings
+#disqus_username: _your_disqus_short_name_
+
+# Duoshuo settings
+#duoshuo_username: candycat
+# Share component is depend on Comment so we can NOT use share only.
+# duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+
+# LiveRe setttings
+# You can get your uid from https://livere.com/insight/myCode (General web site)
+livere_uid: MTAyMC8zNTgxNy8xMjM1Mw
+
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: f2b256a18d5d768e5f58ef074c858703
+# Google Analytics
+#ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+#ga_domain: auto
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "从零开始构建一个世界，真的是一件非常美妙的事情"
+sidebar-avatar: /img/avatar-girl.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Friends
+friends: [
+    {
+        title: "Iq Blog",
+        href: "http://www.iquilezles.org/www/index.htm"
+    },{
+        title: "Aras Blog",
+        href: "http://aras-p.info/blog/"
+    },{
+        title: "雨松MOMO的Blog",
+        href: "http://www.xuanyusong.com/"
+    },{
+        title: "Unity Shader作者",
+        href: "http://candycat1992.github.io/"
+    },{
+        title: "Kingdom的Blog",
+        href: "https://kingdom017.me/"
+    },{
+        title: "疯草莓的Blog",
+        href: "http://madstrawberry.me/"
+    },{
+        title: "Kanglai的Blog",
+        href: "http://qiankanglai.me/"
+    }
+]

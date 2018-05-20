@@ -98,8 +98,5 @@ friends: [
     },{
         title: "SIKI 的个人Blog",
         href: "http://www.devsiki.com/"
-    },{
-        title: "SIKI官网",
-        href: "http://www.sikiedu.com/"
     }
 ]

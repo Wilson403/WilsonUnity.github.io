@@ -15,14 +15,14 @@ tags:
 
  
 
- ##写在前面
+## 写在前面
 
 AnimationCurve是Unity3D里一个非常实用的功能。作用是编辑一条任意变化的曲线用在任何你想用在的地方。 如曲线地形，曲线轨迹等。也被用在了模型动画播放时的碰撞盒缩放及重力调节。AnimationCurve 曲线的绘制方法和Ragespline中的物体轮廓勾勒的方法类似。
 
 
  
 ----
- ##主要代码
+## 主要代码
  
 ````
 using System.Collections;

@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Unity动画曲线在代码中的应用"
-subtitle:   "NGUI"
+subtitle:   "用代码创建动画"
 date:       2018-06-05 12:00:00
 author:     "LYQ"
 header-img: "img/in-post/default-bg.jpg"

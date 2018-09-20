@@ -59,9 +59,10 @@ livere_uid: MTAyMC8zNTgxNy8xMjM1Mw
 # Analytics settings
 # Baidu Analytics
 ba_track_id: f2b256a18d5d768e5f58ef074c858703
+
 # Google Analytics
-#ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-#ga_domain: auto
+ga_track_id: 'UA-126108100-1'            # Format: UA-xxxxxx-xx
+ga_domain: auto
 
 
 

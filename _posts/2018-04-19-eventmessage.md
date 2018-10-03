@@ -171,7 +171,9 @@ public void EnterEvent(EventManager.EVENT_TYPE Event_Type, Component Sender, obj
             }
     }
 ````
+
 * 调用示例代码
+
 ````
 public string[] OnEnterMessage; 
 

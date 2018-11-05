@@ -4,7 +4,7 @@ title:      "手柄与键盘之间的动态切换"
 subtitle:   "利用状态模式来实现"
 date:       2018-11-05 12:00:00
 author:     "LYQ"
-header-img: "img/in-post/graphics-hardware-bg.jpg"
+header-img: "img/in-post/InputState.jpg"
 tags:
     - Unity
     - C#

@@ -141,11 +141,13 @@ public class CheckController{
 }
 
 ````
+
 * **代码说明：-1表示手柄模式，1表示键鼠模式。0表示当前模式**
 
 >接下来就可以写实现了，根据上面的一个简单案例，来套入代码
 
 * State基类
+
 ````
 using System.Collections;
 using System.Collections.Generic;
@@ -244,9 +246,12 @@ public class IInputState
 
 >State子类
 
+
 * **手柄类**
 
+
 ````
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -545,6 +550,7 @@ public class InputStateController : MonoBehaviour
 无论按下手柄的按键还是键盘的，控制台都会打印出"jump".
 
 ````
+
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.Serialization.Formatters;
